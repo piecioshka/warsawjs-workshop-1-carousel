@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+section {
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+
+section ul {
+    margin: 0;
+    padding: 0;
+}
+
+section li {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
