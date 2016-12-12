@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+.hide {
+    display: none;
+}
+
 section {
     position: relative;
     width: 600px;
