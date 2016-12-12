@@ -6,19 +6,48 @@ body {
     display: none;
 }
 
-section {
+article {
+    padding: 0 10px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid;
+    margin: 0 0 10px 0;
+}
+
+section.slider {
     position: relative;
     width: 600px;
     height: 400px;
 }
 
-section ul {
+section.slider ul {
     margin: 0;
     padding: 0;
 }
 
-section li {
+section.slider ul li {
     position: absolute;
     left: 0;
     top: 0;
+}
+
+section.slider > .arrows {
+    position: absolute;
+    bottom: -65px;
+    left: calc(50% - 50px);
+}
+
+section.slider > .arrows > .left-arrow,
+section.slider > .arrows > .right-arrow {
+    font-size: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    float: left;
+    margin: 5px;
 }

@@ -14,16 +14,20 @@ let Slider = {
         this.setupInterval();
     },
 
-    hideAllPhotos: function () {
+    hideAllPhotos() {
         Array.from(this.$list).forEach(($item) => {
             this.hidePhoto($item);
         });
     },
 
-    setupInterval: function () {
+    setupInterval() {
         this.interval = setInterval(() => {
             this.displayNextPhoto();
         }, INTERVAL);
+    },
+
+    stopInterval() {
+        clearInterval(this.interval);
     },
 
     getCurrentPhoto() {
@@ -36,6 +40,19 @@ let Slider = {
 
     displayPhoto($photo) {
         $photo.classList.remove('hide');
+    },
+
+    displayPreviousPhoto() {
+        let $currentPhoto = this.getCurrentPhoto();
+        this.hidePhoto($currentPhoto);
+
+        this.index--;
+        if (this.index === -1) {
+            this.index = this.$list.length - 1;
+        }
+
+        let $nextPhoto = this.getCurrentPhoto();
+        this.displayPhoto($nextPhoto);
     },
 
     displayNextPhoto() {
@@ -53,3 +70,15 @@ let Slider = {
 };
 
 Slider.setup();
+
+document.querySelector('.left-arrow').addEventListener('click', (evt) => {
+    evt.preventDefault();
+    Slider.stopInterval();
+    Slider.displayPreviousPhoto();
+});
+
+document.querySelector('.right-arrow').addEventListener('click', (evt) => {
+    evt.preventDefault();
+    Slider.stopInterval();
+    Slider.displayNextPhoto();
+});
