@@ -1,4 +1,4 @@
-# warsawjs-workshop-slider
+# warsawjs-workshop-1-slider
 
 > Postwork dla WarsawJS Workshop #1
 
@@ -7,7 +7,7 @@
 ## Demo
 
 Jeśli chciałbyś zobaczyć jak wygląda gotowy projekt to kliknij tutaj:<br/>
-https://piecioshka.github.io/warsawjs-workshop-slider/
+https://piecioshka.github.io/warsawjs-workshop-1-slider/
 
 ## Zadanie do zrealizowania podczas pierwszych warsztatów
 
