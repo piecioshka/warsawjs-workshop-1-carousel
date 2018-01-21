@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Vesper+Libre:400,900');
+
+body {
+    font-family: 'Vesper Libre', serif;
+}
+
+.active {
+    opacity: 1;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+
+ul > li {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
