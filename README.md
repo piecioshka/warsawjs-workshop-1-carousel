@@ -20,6 +20,15 @@
 <details>
     <summary>Treść zadania nr. 2</summary>
 
+1. ...
+
+</details>
+
+### Projekt nr. 3 [ [demo](https://piecioshka.github.io/warsawjs-workshop-1-carousel/v3) ]
+
+<details>
+    <summary>Treść zadania nr. 3</summary>
+
 1. DevTools. Przeanalizować stworzone przez siebie strony internetowe.
 
 2. DevTools. Przeanalizować już istniejące strony internetowe.
@@ -337,6 +346,38 @@
 2. Stworzenie multi-platformowej biblioteki JavaScript
 
 3. Wykorzystania komponentu kilka razy na jednej stronie
+
+</details>
+
+### Projekt nr. 4 [ [demo](https://piecioshka.github.io/warsawjs-workshop-1-carousel/v4) ]
+
+<details>
+    <summary>Treść zadania nr. 4</summary>
+
+1. ...
+
+---
+
+## Instalacja
+
+```html
+<div class="test-carousel carousel-component">
+    <img src="http://lorempixel.com/400/200/food/1" alt=""/>
+    <img src="http://lorempixel.com/400/200/food/2" alt=""/>
+    <img src="http://lorempixel.com/400/200/food/3" alt=""/>
+    <img src="http://lorempixel.com/400/200/food/4" alt=""/>
+    <img src="http://lorempixel.com/400/200/food/5" alt=""/>
+</div>
+
+<script src="./carousel.js"></script>
+<script>
+    new TestCarousel({
+        $el: document.querySelector('.test-carousel'),
+        name: 'example-test-slide',
+        interval: 333 // milliseconds
+    });
+</script>
+```
 
 </details>
 

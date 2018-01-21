@@ -1,0 +1,35 @@
+*:before, *:after, * {
+    box-sizing: border-box;
+}
+
+.carousel-component {
+    visibility: hidden;
+    margin: 10px 10px 30px 10px;
+    box-shadow: 0 0 5px 5px #999;
+    position: relative;
+}
+
+.carousel-component .arrow {
+    position: absolute;
+    top: calc(50% - 15px);
+    font-size: 30px;
+    border: none;
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.carousel-component .dot {
+    position: absolute;
+    left: 150px;
+    bottom: 10px;
+}
+
+.carousel-component .left-arrow {
+    left: 10px;
+}
+
+.carousel-component .right-arrow {
+    right: 10px;
+}

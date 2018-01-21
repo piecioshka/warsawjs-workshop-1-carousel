@@ -1,0 +1,19 @@
+{
+    "private": true,
+    "name": "warsawjs-workshop-1-carousel",
+    "description": "WarsawJS Workshop #1: Carousel",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/piecioshka/warsawjs-workshop-1-carousel"
+    }
+}

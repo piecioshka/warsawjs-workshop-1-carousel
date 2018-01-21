@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WarsawJS Workshop #1: Carousel (v4)</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+
+<h1>WarsawJS Workshop #1: Carousel (v4)</h1>
+
+<div class="test-carousel-a carousel-component">
+    <img src="http://lorempixel.com/400/200/sports/1" alt=""/>
+    <img src="http://lorempixel.com/400/200/sports/2" alt=""/>
+    <img src="http://lorempixel.com/400/200/sports/3" alt=""/>
+    <img src="http://lorempixel.com/400/200/sports/4" alt=""/>
+    <img src="http://lorempixel.com/400/200/sports/5" alt=""/>
+</div>
+
+<div class="test-carousel-b carousel-component">
+    <img src="http://lorempixel.com/400/200/sports/6" alt=""/>
+    <img src="http://lorempixel.com/400/200/sports/7" alt=""/>
+    <img src="http://lorempixel.com/400/200/sports/8" alt=""/>
+    <img src="http://lorempixel.com/400/200/sports/9" alt=""/>
+    <img src="http://lorempixel.com/400/200/sports/10" alt=""/>
+</div>
+
+<div class="test-carousel-c carousel-component">
+    <img src="http://lorempixel.com/400/200/food/1" alt=""/>
+    <img src="http://lorempixel.com/400/200/food/2" alt=""/>
+    <img src="http://lorempixel.com/400/200/food/3" alt=""/>
+    <img src="http://lorempixel.com/400/200/food/4" alt=""/>
+    <img src="http://lorempixel.com/400/200/food/5" alt=""/>
+</div>
+
+<script src="main.js"></script>
+<script>
+    window.addEventListener('load', () => {
+        const carousel1 = new TestCarousel({
+            name: 'carousel-1',
+            $el: document.querySelector('.test-carousel-a'),
+            interval: 1000
+        });
+        const carousel2 = new TestCarousel({
+            name: 'carousel-2',
+            $el: document.querySelector('.test-carousel-b'),
+            interval: 2000
+        });
+        const carousel3 = new TestCarousel({
+            name: 'carousel-3',
+            $el: document.querySelector('.test-carousel-c'),
+            interval: 3000
+        });
+    });
+</script>
+
+</body>
+</html>
