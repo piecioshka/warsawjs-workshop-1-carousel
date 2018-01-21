@@ -16,31 +16,31 @@ h1 {
     margin: 0 0 10px 0;
 }
 
-section.slider {
+section.carousel {
     position: relative;
     width: 600px;
     height: 400px;
 }
 
-section.slider ul {
+section.carousel ul {
     margin: 0;
     padding: 0;
 }
 
-section.slider ul li {
+section.carousel ul li {
     position: absolute;
     left: 0;
     top: 0;
 }
 
-section.slider > .arrows {
+section.carousel > .arrows {
     position: absolute;
     bottom: -65px;
     left: calc(50% - 50px);
 }
 
-section.slider > .arrows > .left-arrow,
-section.slider > .arrows > .right-arrow {
+section.carousel > .arrows > .left-arrow,
+section.carousel > .arrows > .right-arrow {
     font-size: 40px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);

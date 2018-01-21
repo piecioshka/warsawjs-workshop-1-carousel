@@ -1,6 +1,6 @@
 const INTERVAL = 2000;
 
-let Slider = {
+let Carousel = {
     index: null,
     $list: null,
     interval: null,
@@ -69,16 +69,16 @@ let Slider = {
     }
 };
 
-Slider.setup();
+Carousel.setup();
 
 document.querySelector('.left-arrow').addEventListener('click', (evt) => {
     evt.preventDefault();
-    Slider.stopInterval();
-    Slider.displayPreviousPhoto();
+    Carousel.stopInterval();
+    Carousel.displayPreviousPhoto();
 });
 
 document.querySelector('.right-arrow').addEventListener('click', (evt) => {
     evt.preventDefault();
-    Slider.stopInterval();
-    Slider.displayNextPhoto();
+    Carousel.stopInterval();
+    Carousel.displayNextPhoto();
 });
