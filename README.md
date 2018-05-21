@@ -2,7 +2,7 @@
 
 > WarsawJS Workshop #1: Carousel
 
-![](http://warsawjs.com/assets/images/logo/logo-transparent-240x240.png)
+![](https://warsawjs.com/assets/images/logo/logo-transparent-240x240.png)
 
 ## Krok po kroku
 
@@ -362,11 +362,11 @@
 
 ```html
 <div class="test-carousel carousel-component">
-    <img src="http://lorempixel.com/400/200/food/1" alt=""/>
-    <img src="http://lorempixel.com/400/200/food/2" alt=""/>
-    <img src="http://lorempixel.com/400/200/food/3" alt=""/>
-    <img src="http://lorempixel.com/400/200/food/4" alt=""/>
-    <img src="http://lorempixel.com/400/200/food/5" alt=""/>
+    <img src="https://unsplash.it/400/200/?image=21" alt=""/>
+    <img src="https://unsplash.it/400/200/?image=22" alt=""/>
+    <img src="https://unsplash.it/400/200/?image=23" alt=""/>
+    <img src="https://unsplash.it/400/200/?image=24" alt=""/>
+    <img src="https://unsplash.it/400/200/?image=25" alt=""/>
 </div>
 
 <script src="./carousel.js"></script>
@@ -384,4 +384,4 @@
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2018
+[The MIT License](https://piecioshka.mit-license.org) @ 2018
