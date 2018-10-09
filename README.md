@@ -1,8 +1,8 @@
 # warsawjs-workshop-1-carousel
 
-> WarsawJS Workshop #1: Carousel
+WarsawJS Workshop #1: Carousel
 
-![](https://warsawjs.com/assets/images/logo/logo-transparent-240x240.png)
+![](images/logo-warsawjs-transparent-240x240.png)
 
 ## Krok po kroku
 
