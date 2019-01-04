@@ -4,7 +4,7 @@ WarsawJS Workshop #1: Carousel
 
 ![](images/logo-warsawjs-transparent-240x240.png)
 
-## Krok po kroku
+## Krok po kroku 👣
 
 ### Projekt nr. 1 [ [demo](https://piecioshka.github.io/warsawjs-workshop-1-carousel/v1) ]
 
