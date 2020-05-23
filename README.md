@@ -1,8 +1,6 @@
 # warsawjs-workshop-1-carousel
 
-WarsawJS Workshop #1: Carousel
-
-![](images/logo-warsawjs-transparent-240x240.png)
+⛩️ WarsawJS Workshop #1 — JavaScript (Beginner Level) — Carousel (4 versions)
 
 ## Krok po kroku 👣
 
