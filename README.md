@@ -61,7 +61,7 @@
 
     > Rozwiązanie:
     
-    ```javascript
+    ```js
     window.foo = 2;
     ```
 
@@ -92,7 +92,7 @@
 
     > Rozwiązanie:
 
-    ```javascript
+    ```js
     function setup() {
         let $list = document.querySelector('ul');
         console.log($list);
@@ -106,7 +106,7 @@
 
     > Rozwiązanie:
 
-    ```javascript
+    ```js
     let $items = document.querySelector('.element');
     $items[1].classList.add('active');
     ```
