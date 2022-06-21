@@ -1,6 +1,6 @@
 # warsawjs-workshop-1-carousel
 
-⛩️ WarsawJS Workshop #1 — JavaScript (Beginner Level)
+⛩️ WarsawJS Workshop #1 — JavaScript (Basic Level)
 
 ## Krok po kroku 👣
 
