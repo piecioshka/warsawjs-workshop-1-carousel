@@ -69,7 +69,7 @@
     globalną zdefiniowaną jako właściwość obiektu `window`.
 
 14. Stworzyć listę obrazków wykorzystując `h1, ul, li, img`. 
-    Wykorzystać serwis https://unsplash.it/ do pobierania obrazków. 
+    Wykorzystać serwis https://picsum.photos/ do pobierania obrazków. 
 
 15. Zresetować domyślne style dla `body, ul`.
 
@@ -360,11 +360,11 @@
 
 ```html
 <div class="test-carousel carousel-component">
-    <img src="https://unsplash.it/400/200/?image=21" alt=""/>
-    <img src="https://unsplash.it/400/200/?image=22" alt=""/>
-    <img src="https://unsplash.it/400/200/?image=23" alt=""/>
-    <img src="https://unsplash.it/400/200/?image=24" alt=""/>
-    <img src="https://unsplash.it/400/200/?image=25" alt=""/>
+    <img src="https://picsum.photos/seed/21/400/200" alt=""/>
+    <img src="https://picsum.photos/seed/22/400/200" alt=""/>
+    <img src="https://picsum.photos/seed/23/400/200" alt=""/>
+    <img src="https://picsum.photos/seed/24/400/200" alt=""/>
+    <img src="https://picsum.photos/seed/25/400/200" alt=""/>
 </div>
 
 <script src="./carousel.js"></script>
