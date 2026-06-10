@@ -69,7 +69,7 @@
     globalną zdefiniowaną jako właściwość obiektu `window`.
 
 14. Stworzyć listę obrazków wykorzystując `h1, ul, li, img`. 
-    Wykorzystać serwis https://picsum.photos/ do pobierania obrazków. 
+    Wykorzystać serwis https://picsum.photos/ do pobierania obrazków.
 
 15. Zresetować domyślne style dla `body, ul`.
 
